@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-size: 100%; 
+    background-image: url(Img/Imagenlibro.jpg);
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+#nav{
+    height: 41px;
+    padding: 15px;
+    background-color: rgb(52, 12, 59)
+}
+
+#nav ul{
+    list-style: none;
+    margin: 0px auto;
+    width: 1150px;
+}
+
+#nav > ul > li{
+    line-height: 40px;
+    float: left;
+    border: 1px solid #CDFFFE;
+}
+
+#nav > ul > li a{
+    display: block;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#nav > ul > li:hover{
+    background-color: #80428D;
+    box-shadow: 0px 0px 5px orchid;
+}
+
+#nav > ul > li > ul{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 130px;
+    box-shadow: 0px 0px 5px orchid;
+}
+
+#nav > ul > li:hover > ul{
+    display: block;
+}
+
+#nav > ul > li:hover > ul > li{
+    background-color: #f2f1f0;
+    border: 1px solid #d6d6d6;
+    padding: 8px;
+    line-height: 25px;
+    font-size: 13px;
+    transition: all 300ms
+}
+
+#nav > ul > li > ul > li:hover{
+    background-color: #80428D;
+}
+
+#nav > ul > li > ul > li >a{
+    color:black;
+    cursor: pointer;
+}
+
+#container h1{
+    margin: 10px;
+    margin-top: 450px;
+    margin-left: 5px;
+    font-size: 50px;
+    color: white;
+}
+
+#container p{
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 25px;
+    color: white;
+}
+
+#content{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1150px;
+    min-height: 1250px;
+    margin: 0px auto;
+}
+
+.contenido{
+    margin-top: -230px;
+    margin-left: 400px;
+    padding: 10px;
+    width: 800px;
+    background-color: rgba(12, 12, 12, 0.527);
+    color: white;
+    box-shadow: 0px 0px 10px #80428D;
+}
+
+.contenido2{
+    margin-top: -210px;
+    margin-left: 25px;
+    padding: 10px;
+    width: 800px;
+    background-color: rgba(12, 12, 12, 0.527);
+    box-shadow: 0px 0px 10px #80428D;
+    color: white;
+}
+
+.caja{
+    margin-top: 100px;
+    height: 280px;
+    width: 310px;
+    margin-left: 30px;
+    margin-bottom: 9px;
+    border-radius: 100%;
+    background-color: #E2BfC7;
+}
+
+.caja img{
+    z-index: 1;
+    border-radius: 100%;
+    height: 250px;
+    width: 280px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.caja2{
+    margin-top: 150px;
+    height: 300px;
+    width: 330px;
+    margin-left: 930px;
+    margin-bottom: 9px;
+    border-radius: 100%;
+    background-color: #c06f95;
+}
+
+.caja2 img{
+    z-index: 1;
+    border-radius: 100%;
+    height: 270px;
+    width: 300px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#formulario{
+    padding: 10px;
+    margin: 75px;
+    margin-top: -350px;
+    background-color: rgba(12, 12, 12, 0.527);
+    box-shadow: 0px 0px 10px white;
+}
+
+#formulario h2{
+    margin: 10px;
+    margin-bottom: 70px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
+#formulario form{
+    padding: 20px;
+    margin: 20px;
+    margin-left: 330px;
+}
+
+#formulario label{
+    font-size: 20px;
+    color: white;
+}
+
+#formulario input{
+    width: 500px;
+    height: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+input[type= "submit"]{
+    font-size: 15px;
+    background-color: grey;
+    height: 40px  !important;
+    width: 120px !important;
+    cursor: pointer;
+}
+
+input[type= "text"]{
+    font-size: 15px;
+    text-align: center;
+    padding: 4px;
+}
+
+#formulario input[type= "submit"]:hover{
+    background-color: #c06f95;
+    color: white;
+    border: 1px solid purple;
+}
+
+#formulario input[type= "text"]:hover{
+    background-color: #E2BfC7;
+    border: 1px solid purple;
+}
+
+#footer{
+    background-color: rgb(52, 12, 59);
+    margin-top: 15px;
+    height: 76px;
+}
+
+#footer h2{
+    margin-bottom: 1px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+#footer p{
+    text-align: center;
+    color: white;
+}
+
+#footer a{
+    color: pink;
+    text-decoration: none;
+}
+
+#footer a:hover{
+    color: blueviolet;
+}

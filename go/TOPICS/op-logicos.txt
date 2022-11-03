@@ -1,0 +1,10 @@
+OPERADORES LOGICOS
+
+&& AND
+|| OR 
+
+!variable NOT
+
+ejemplo de NOT:
+myBool := true
+fmt.Println(!myBool) // retorna false

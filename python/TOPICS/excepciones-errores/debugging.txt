@@ -1,0 +1,27 @@
+DEBUGGIN (Depuración)
+
+Debuggin nos ayuda a encontrar un error el cual en la terminal 
+no nos dice error
+
+------
+
+Casi siempre los editores de texto traen esta funcionalidad
+
+En vscode es: "Run and Debug" (esta en la barra de la izq)
+
+Cuando estemos en la prueba, si vamos pausando, a la izquierda 
+van a ir apareciendo los valores y variables que se van creando 
+
+------
+
+Botones:
+- Boton de pausa
+- Linea sgte
+- Entrar a un lugar/bloque de codigo,
+- Salir de un lugar/bloque de codigo
+- Reiniciar prueba
+- Terminar prueba
+
+A la izquierda de una linea de codigo podemos colocar un punto rojo, que es
+un break point. Esto sirve para el debuggin, ya que en la prueba se va a pausar
+el proceso justo en la linea que hayamos puesto el break point

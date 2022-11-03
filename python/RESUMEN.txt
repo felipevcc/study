@@ -1,0 +1,177 @@
+___________________PYTHON______________________
+
+Python fue creado por Guido Van Rossum
+Python es un lenguaje interpretado de alto nivel
+
+es interpretado por una maquina virtual y esta maquina
+se comunica con la computadora
+
+Garbage collector/recolector de basura: 
+limpia/elimina las variables y las cosas que no estan siendo utilizadas
+
+__pycache__ = es el codigo intermedio por donde Python
+puede ser comunicado con la maquina al ser un lenguaje 
+interpretado, esto sirve para ser mas rapido ya que el 
+codigo queda guardado aqui
+
+Depurar -> Corregir errores de programacion
+Script -> Es un codigo corto
+
+si una variable se crea dentro de un ciclo o una funcion es local
+si se crea afuera y se utiliza adentro es global
+
+Los eventos son piezas de codigos que se ejecutan cuando pasa algo
+
+entry point:
+__name__ hace referencia al nombre del fichero
+__main__ hace referencia al fichero en el que esta el codigo actualmente
+_______________________________________________
+
+Modulo:
+es todo file que contiene codigo py 
+
+Paquete:
+es una carpeta que contiene modulos, siempre posee 
+el archivo __init__.py
+
+__init__.py:
+en la industria se lee asi: dander init.py
+
+al decir dander antes de un nombre significa que 
+el nombre va a estar con dos underscores al inicio y 
+dos al final
+_______________________________________________
+
+Tipados:
+- estatico = los errores se dan tiempo de compilacion (no se ejecuta)
+- dinamico = los errores se dan en tiempo de ejecucion
+- debil = son permisivos al operar tipos de datos no posibles 
+- fuerte = no son permisivos al operar tipos de datos no posibles
+_______________________________________________
+
+OPERADORES
+
+#Operadores Arimetricos
+ + suma
+ - esta
+ * multiplicacion
+ / division
+ % modulo (para obtener el residuo de la division)
+ ** exponenciacion
+ // aproximacion 
+
+#Operadores Relacionales
+ == comparacion
+ < > menor que..., mayor que... 
+ != diferente a...
+ += , -= , /= , <= , etc...
+
+#Operadores Logicos
+ and, or, not = line 50
+
+#Operadores de pertenencia o de membresia
+ in, not in, 
+ 
+#Operadores de identidad
+ is, is not
+______________________________
+
+TIPOS DE DATOS
+
+#Para Numeros
+
+Entero (int)
+Float (decimales, reales) 
+Complex (imaginarios ej: 3j) 
+
+
+#Para Texto
+
+Las listas son colecciones editables
+Las tuplas son colecciones inmutables
+
+Los conjuntos son colecciones desordenadas y no hay miembros duplicados
+Los diccionarios son colecciones ordenadas modificables y no hay miembros duplicados
+
+lista []  list
+tupla ()  tuple
+conjuntos {}   set
+diccionario {}  dict
+______________________________
+
+METODOS
+
+.remove() = para eliminar elementos 
+.insert() = para insertar elementos 
+.append() = para adjuntar/insertar elementos
+.sort() = para ordenar elementos
+.upper() = convierte a mayuscula
+.lower() = convierte a minuscula
+.strip() = eliminar espacios vacios
+.replace() = reemplazar letras o palabras
+.split() = crear un separador
+.format() = marcador de posición, colocar valor entre llaves 
+.add() = añadir
+.update() = cargar un conjunto en otro
+.discard() = descartar/eliminar
+.pop() = eliminar con indice y retorna el elemento eliminado
+.extend() = unir listas o cadenas
+.union() = une dos variables/conjuntos
+.clear() = Vaciar lista
+.reverse() = cambia el orden de la variable, de atras a adelante
+.intersection_update() = une valores repetidos de dos variables en el mismo conjunto
+.intersection() = une valores repetidos de dos variables en diferente conjunto 
+.symmetric_difference_update() = une valores no repetidos de dos variables en mismo conjunto
+.symmetric_difference() = une valores no repetidos de dos variables en diferente conjunto 
+.capitalize() -> Primera letra en mayuscula
+
+.isnumeric() = metodo que devuelve True si es un numero o False si no lo es en una cadena de texto
+
+del = elimina bajo un indice especificado o elimina otra cosa (como por ejemplo una funcion)
+
+len
+print(len(...)) = para contar cuantos espacios hay desde 1
+
+
+#Metodos diccionarios
+
+.get() = Para mostrar valores por medio de la clave
+.keys() = Para mostrar unicamente las claves (las llaves)
+.values() = Para mostrar unicamente los valores
+.popitem() = Para eliminar la ultima clave y valor
+.copy() = para copiar un conjunto en otra variable
+_______________________________
+
+ADICIONAL
+
+Break = para pausar un espacio de un bucle
+Range = para determinar el rango se un recorrido en un bucle 
+Pass = para dejar vacia una funcion
+
+En los range del for, si solo se coloca hasta donde va, iniciaria desde 0
+
+.lower() es para colocar todo lo digitado en minusculas
+.upper() es para colocar todo lo digitado en mayusculas
+.swapcase() es para colocar el texto al contrario de como se digitó
+
+
+EJEMPLOS DE COPYRIGHT
+"""
+Proyecto Básico de Python (Piedra, Papel o Tijera).
+Basado en el proyecto de: Kylie Ying (@kylieyying). 
+Versión en Español con Modificaciones: Estefania Cassingena Navone (@EstefaniaCassN).
+"""
+
+La función enumerate() dentro del bucle for retorna dos valores en cada iteración, 
+uno es un contador que se guarda en la variable contador y el segundo valor es un 
+elemento de la lista que se guarda en la variable direccion . Esto elimina la 
+posibilidad de errores al olvidar incrementar manualmente el contador .
+
+________________________________ 
+
+Scope = alcance de las variables
+una variable solo esta disponible dentro de la region donde fue creada
+________________________________ 
+
+Nested functions = funciones anidadas
+

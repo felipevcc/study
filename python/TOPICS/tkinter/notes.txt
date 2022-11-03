@@ -1,0 +1,7 @@
+DESARROLLO DE GUIS
+(Interfaz grafica con el usuario)
+
+La gui hacer referencia a la ventana
+
+pack -> Para enviar a la ventana (empacarlo)
+boton.pack()

@@ -1,0 +1,21 @@
+
+ERRORES
+
+> Por SyntaxError:
+    No se corre el programa y es debido a una mala escritura de algo.
+
+> Por Exception (excepciones):
+    Si corren el programa pero hasta el error.
+    Algunos tipos de errores que puede contener son:
+        - KeyboardInterrupt = Al pulsar Ctrl+C (cancela la ejecución del programa)
+        - KeyError = Al acceder a una llave de un diccionario que no existe
+        - IndexError = Al acceder a un indice de una lista que no existe
+        - FileNotFoundError = Al acceder a un archivo que no existe
+        - ZeroDivisionError = Al dividir un numero entre 0
+        - ImportError = Al importar un modulo en el que hay algun error en él o no funciona algo
+        - TypeError = Error en algún tipo de dato 
+
+--
+
+Traceback = Es el mensaje que nos sale cuando hay un error (La traza del error)
+

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MusicBand</title>
+    <link href="https://apply.holbertonschool.com/level2/school.css" rel="stylesheet">
+    <meta name="viewport" content="user-scalable=yes, width=930px, initial-scale=1">
+    <meta charset="UTF-8">
+    <link href="styles-in.css" rel="stylesheet">
+    <!--<script src="behavior.js"></script>-->
+  </head>
+  <body class="works_on_smartphone">
+
+    <header id="header">
+      <div class="navbar">
+        <h1>MUSICBAND</h1>
+        <nav class="nav">
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+            <li><a href="goals.html">Goals</a></li>
+            <li><a href="instruments.html">Instruments</a></li>
+            <li><a href="#footer">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="right">
+          <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script src="https://platform.twitter.com/widgets.js"></script>
+          <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&layout=button_count&size=small&width=131&height=20&appId" width="83" height="20" style="border:none;overflow:hidden" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"></iframe>
+        </div>
+      </div>
+    </header>
+
+    <!--Only in the index.html is this section, so that the website has a presentation image-->
+    <section class="img">
+      <img src="https://i.imgur.com/qgfO9La.jpg" alt="Background">
+      <div class="welcome">
+        <h2>WELCOME TO MUSICBAND</h2>
+      </div>
+    </section> 
+
+    <main id="main">
+      <article>
+        <h3>What do we do?</h3>
+        <p>We are a musical group dedicated to play at events and meetings. We have a repertoire with many songs, we also create covers of songs and new music.</p>
+        <p class="p2">If you want to see our instruments click here:</p>
+        <button><a href="instruments.html">INSTRUMENTS</a></button>
+
+        <div class="article-info">
+          <p>We are located in <strong>Cali, Colombia.</strong> We are 7 members and we have played together for more than a year.</p>
+          <p class="p2">If you are interested in seeing our future goals click here:</p>
+          <button><a href="goals.html">GOALS</a></button>
+        </div>
+      </article>
+
+      <aside>
+        <div id="disqus_thread"></div>
+        <script>
+          var disqus_config = function () {
+          this.page.url = "http://15.236.92.232/";  // Replace PAGE_URL with your page's canonical URL variable
+          this.page.identifier = "2349872"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+          };
+
+          (function() { // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+          s.src = 'https://iluzzion.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+          })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      </aside>
+    </main> 
+
+    <footer id="footer">
+      <div class="div1">
+        <h3 class="1h3">Email</h3>
+        <p class="1p">felipevillamizarc@gmail.com</p>
+
+        <h3 class="2h3">Phone number</h3>
+        <p class="2p">3148933577</p>
+
+        <a href="https://apply.holbertonschool.com">
+          <img src="https://apply.holbertonschool.com/holberton-logo.png" alt="Holberton-logo">
+        </a>
+      </div>
+      <div class="div2">
+        <p>Made by Andres Felipe Villamizar for <a href="https://apply.holbertonschool.com" target="_blank">Holberton School</a></p>
+      </div>
+    </footer>
+
+  </body>
+</html>

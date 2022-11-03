@@ -1,0 +1,95 @@
+HTML
+
+! + tab
+
+Meta y link no es necesario cerrarlos
+
+Comentarios: 
+<!-- -->
+
+lorem = texto de prueba
+_____________________________________
+
+ETIQUETAS 
+< > y </>
+
+h1 = titulos
+p = parrafos
+button = boton
+nav = navegacion/separador
+div = division/separador
+section = seccion/separador 
+a = links (de paginas, de ficheros o de partes de programacion)
+<br/> = salto de linea (en un parrafo/texto)
+<hr/> = salto de de renglon con una linea
+<img src="" alt=""> = imagenes
+strong = texto en negrilla
+em = letra cursiva
+i = letra cursiva
+blockquote = citar
+
+_____________________________________
+
+TITULOS 
+Desde <h1> hasta </h6> 
+(Va disminutendo el tamaño)
+______________________________________
+
+SEPARADORES
+En los separadores se coloca id o class, se les coloca un nombre para
+poder llamarlos e identificarlos
+______________________________________
+
+LISTAS
+
+<ol> </ol>
+Para conteo con numeros, 1. 2. ...
+Ejemplo:
+<ol>
+    <li>Primero</li>
+    <li>Segundo</li>
+    <li>Tercero</li>
+</ol>
+
+------------
+
+<ul> </ul>
+Para conteo con puntos
+Ejemplo:
+<ul>
+    <li>Primero</li>
+    <li>Segundo</li>
+    <li>Tercero</li>
+</ul>
+
+------------
+
+Ejemplo:
+<ol>
+    <li>Manzana
+        </ul>
+            <li>Rojo</li>
+            <li>Verde</li>
+        </ul>
+    </li>
+</ol>
+
+______________________________________
+
+TABLAS
+
+table
+Ejemplo:
+
+<table border = "5px">
+    <tr>
+        <th> nombre </th>   //Si lo queremos en negrilla colocamos th en vez de td
+        <th> apellido </th>
+        <th> ciudad </th>
+    </tr>
+    <tr>
+        <td> Felipe </td>
+        <td> Villamizar </td>
+        <td> Collazos </td>
+    </tr>
+</table>

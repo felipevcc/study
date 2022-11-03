@@ -1,0 +1,46 @@
+Go/Golang
+
+Go Gopher - Mascota
+/Gofer/
+
+El lenguaje es compilado y estáticamente tipado
+
+DOCUMENTACION DE GOLANG: go doc
+
+=================================================
+
+Instalar paquetes:
+go get 
+
+Correr el archivo:
+go run fichero.go
+
+-----------
+
+Compilar archivo:
+go build fichero.go 
+
+despues de esto se puede correr asi: ./fichero
+
+--------------------------------------------------
+
+COMENTARIOS: //
+
+package -> Nombre de la carpeta en el cual esta guardado
+            (cuando es el archivo principal es main)
+
+import another_name "package"
+
+fmt -> Es el paquete que se encarga de impresion de consola
+
+--------------------------------------------------
+
+Println -> Print con salto de linea automatico
+Print -> Print sin salto de linea
+
+base := 12 -> La variables se creara y se le asignara el valor 12
+base = 12 -> La variable ya estaba creada antes
+
+-------------------
+
+nil = valor nulo

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1,shrink-to-fit=no">
+        <meta name="description" content="Jugar memorama en línea">
+        <title>CONCENTRESE</title>
+        <link href="./css/bootstrap.min.css" rel="stylesheet">
+        <link href="./css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <main role="main" class="container-fluid" id="app">
+            <div class="row">
+                <div class="col-12">
+                </br></br>
+                    <h1 class="text-center text-white shadow p-3" style= "text-shadow: 0px 0px 15px black;">CONCENTRESE</h1>
+                
+
+                    <p class="text-white" style="text-align: center;"> 
+                        <span class="h5 text-white" style="text-shadow: 0px 0px 10px #28B1BA;">Intentos: </span>
+                        {{intentos}}/{{MAXIMOS_INTENTOS}}&nbsp;<span class="h5 text-white" style="text-shadow: 0px 0px 10px #28B1BA;">Aciertos:
+                        </span> {{aciertos}}
+                    </br></br>
+                    </p>
+                </div>
+            </div>
+
+            <div id= "tarjets">
+                <div v-for="(fila, indiceFila) in memorama" :key="indiceFila"
+                    class="row" style="text-align: center;">
+                    <div style= "margin: 8px;":key="indiceFila+''+indiceImagen" class="col-1"
+                        v-for="(imagen, indiceImagen) in fila">
+                        <div class="mb-1">
+                            <img  style= "height: 130px; width: 130px;" @click="voltear(indiceFila, indiceImagen)"
+                                :class="{'girar': imagen.mostrar}"
+                                :src="(imagen.mostrar ? imagen.ruta :
+                                NOMBRE_IMAGEN_OCULTA)" class="card-img-top img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <footer class="px-2 py-2 fixed-bottom  text-white" style="background: #28b1b83f">
+            <span style= "margin-left: 2%;">Felipe Villamizar 11-1</span>
+        </footer>
+        <script src="./js/sweetalert2.all.min.js"></script>
+        <script src="./js/vue.min.js"></script>
+        <script src="./js/script.js"></script>
+    </body>
+
+</html>

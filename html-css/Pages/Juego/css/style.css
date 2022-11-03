@@ -1,0 +1,47 @@
+body{
+    background: url("../img/fondo.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*overflow: hidden;*/
+    overflow-y: hidden;
+}
+img.card-img-top {
+    object-fit: cover;
+    cursor: pointer;
+    max-height: 150px !important;
+    max-width: 150px !important;
+}
+
+img.card-img-top.girar {
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+body {
+  /*Para la barra inferior fija*/
+  padding-bottom: 70px;
+}
+
+#tarjets {
+   margin-left: 6.4%;
+
+}
+
+#tarjets img:hover {
+    opacity: 0.8;
+    transform: scale(1.2);
+}
+
+#tarjets img{
+    margin-top: -4.5%;
+}
+
+

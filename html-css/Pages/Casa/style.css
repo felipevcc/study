@@ -1,0 +1,132 @@
+*{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar{
+    padding: 10px;
+}
+
+#website{
+    min-height: 1200px;
+}
+
+h2{
+    display: block;
+    width: 10%;
+    padding: 1%;
+    margin-left: 2%;
+}
+
+#navbar .nav ul{
+    display: block;
+    float: left;
+    list-style: none; 
+    width: 80%;
+    margin-top: -2.1%;
+    margin-left: 25%;
+}
+
+#navbar .nav ul li{
+    display: block;
+    float: left;
+    margin-right: 3%;
+    border-right: 1px solid gray;
+}
+
+#navbar .nav ul li a{
+    text-decoration: none;
+    margin-right: 35px;
+    color: black; 
+}
+
+#navbar p{
+    display: block;
+    width: 20%;
+    margin-top: -2.1%;
+    margin-right: -6%;
+    float: right;
+}
+
+#content .portada img{
+    width: 100%;
+}
+
+#content .portada p{
+    font-size: 23px;
+    margin-top: -31%;
+    text-align: center;
+    color: white;
+    margin-bottom: 13px;
+}
+
+#content .portada h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+/*#content .portada .b1{
+    background-color: #EDD10E;
+    border: none;
+    margin-left: 43%;
+    margin-top: 20px;
+    height: 45px;
+    padding: 15px;
+}
+
+#content .portada .b2{
+    background-color: white;
+    border: none;
+    margin-left: 52%;
+    height: 45px;
+    padding: 15px;
+}
+
+#content .portada .b1 a{
+    text-decoration: none;
+    color: black;
+}
+
+#content .portada .b2 a{
+    text-decoration: none;
+    color: black;
+}*/
+
+#content  .portada .b1{
+    background-color: #EFCF1C;
+    border: none;
+    margin-left: 40.7%;
+    margin-top: 1.5%;
+    height: 50px;
+}
+#content  .portada .b2{
+    margin-left: 3%;
+    background-color: white;
+    border: none;
+    height: 50px;
+}
+
+#content  .portada .b1 a{
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+}
+#content  .portada .b2 a{
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+#content  .portada .b1:hover{
+    background-color: #af9b28;
+}
+
+#content  .portada .b2:hover{
+    background-color: rgb(182, 180, 180);
+}

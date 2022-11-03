@@ -1,0 +1,78 @@
+JAVASCRIPT
+
+__________________________________
+
+- Doctype HTML, head: 
+<script src = 'archivo.js'></script>
+
+- Comentarios:
+//Solo un quion
+/*Lo que abarque*/
+__________________________________
+
+- Para imprimir:
+console.log('Hola Mundo'); //Consola
+document.write('Hola Mundo'); //Pantalla
+alert('Hola Mundo'); //Alerta
+__________________________________
+
+- Variables:
+var nombre = 'Luis Carlos';
+var edad = 17;
+___________________________________
+
+- Conocer el tipo de dato:
+console.log(typeof(edad))
+
+parseInt //enteros
+parseFloat //decimales
+String //texto
+Number //numero
+Boolean //booleano 
+
+prompt //pedir al usuario cifras
+___________________________________
+
+Valores vacios=
+null 
+undefined
+___________________________________
+
+Datos primitivos = son datos que no son un objeto.
+Como = String, number, bigint, boolean, undefined, null y symbol
+___________________________________
+
+Valor tipo objeto = []
+(array)
+
+Valor tipo objeto = {}
+___________________________________
+
+var = global
+let = local
+___________________________________
+
+Scope global
+Scope local
+___________________________________
+
+NaN = Es falso
+___________________________________
+
+== compara valores
+
+=== compara valores y tipo de dato
+___________________________________
+
+Coercion explicita significa cambiar el tipo de dato forzado
+___________________________________
+
+Cuando se aplica hoisting el valor que se asigna a las variables
+por defecto es undefined hasta que se declare
+___________________________________
+
+document.getElementById("InputPrice")
+___________________________________
+
+Metodo .sort
+Para ordenar los elementos de una lista. De menor a mayor
